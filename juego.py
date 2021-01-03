@@ -137,14 +137,14 @@ while True:
     med.medusa.sety(med.medusa.ycor() - med.vy)
     
     if SiNivel2 == 2 and NivelScore >= 30:
-        vent = ventana(600, 600,"Pong",1)
+        vent = ventana(600, 600,"Atrapa Medusas",1)
         SiNivel2 == 3
         NivelScore = 0
         
         
     elif SiNivel2 == 2 and NivelScore < 30:
         SiNivel2 = 0
-        vent = ventana(600, 600,"Pong",1)
+        vent = ventana(600, 600,"Atrapa Medusas",1)
         med.medusa.showturtle()
     
     
@@ -204,13 +204,13 @@ while True:
         
         
         if SiNivel2 == 0:
-            vent = ventana(600, 600,"Pong",2)
+            vent = ventana(600, 600,"Atrapa Medusas",2)
             med_1 = medusa(vy=10)
             
             SiNivel2 = 1
         
         if SiNivel2 == 3:
-            vent = ventana(600, 600,"Pong",2)
+            vent = ventana(600, 600,"Atrapa Medusas",2)
             SiNivel2 = 1
             
         if SiNivel2 == 1:
